@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/michaldobiezynski/better_photos/issues"
   },
-  "homepage": "https://github.com/michaldobiezynski/better_photos#readme"
+  "homepage": "https://github.com/michaldobiezynski/better_photos#readme",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
 }
