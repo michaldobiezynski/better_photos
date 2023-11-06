@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "sass --watch --no-source-map src/main.scss src/style.css"
+    "compile": "sass --watch --no-source-map src/main.scss src/style.css",
+    "build:compile": "sass --no-source-map src/main.scss build/compiled.css",
+    "build:prefix": "postcss build/compiled.css --use autoprefixer -d build/prefixed.css",
+    "build:optimize": "csso build/prefixed.css build/style.css"
   },
   "repository": {
     "type": "git",
