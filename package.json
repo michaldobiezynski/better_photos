@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/michaldobiezynski/better_photos#readme",
   "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "csso-cli": "^4.0.2",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
     "sass": "^1.69.5"
   }
 }
